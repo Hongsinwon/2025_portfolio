@@ -1,0 +1,58 @@
+.profileSection {
+  position: fixed;
+  left: 0;
+  top: 70px;
+  bottom: 30px;
+  width: 30vw;
+  color: #fff;
+  line-height: 1.6;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  border-right: #333 1px solid;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content {
+  color: #aaa;
+}
+
+.aboutMe {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutMe img {
+  padding: 16px 0;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.skill .skillIcon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 15vw;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+.skill .skillIcon img:nth-child(3),
+.skill .skillIcon img:nth-child(10) {
+  border-radius: 50%;
+}
+
+.introduction {
+  padding-top: 30px;
+}

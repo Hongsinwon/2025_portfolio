@@ -10,6 +10,7 @@ import "./globals.css";
 import "./reset.css";
 import Link from "next/link";
 import { faArrowRight, faBlog } from "@fortawesome/free-solid-svg-icons";
+import Profile from "../components/profile";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -75,7 +76,10 @@ export default function RootLayout({
       <body>
         <div className={style.container}>
           <Header />
-          <main>{children}</main>
+          <main>
+            <Profile />
+            {children}
+          </main>
           <Footer />
           <ScrollButton />
         </div>

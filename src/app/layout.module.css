@@ -72,4 +72,7 @@
 }
 
 .container > main {
+  display: grid;
+  grid-template-columns: 30vw 1fr;
+  margin-top: 70px;
 }
