@@ -9,7 +9,7 @@ import style from "./layout.module.css";
 import "./globals.css";
 import "./reset.css";
 import Link from "next/link";
-import { faArrowRight, faBlog } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Profile from "../components/profile";
 
 export const metadata: Metadata = {
@@ -78,7 +78,7 @@ export default function RootLayout({
           <Header />
           <main>
             <Profile />
-            {children}
+            <div className={style.mainWarp}>{children}</div>
           </main>
           <Footer />
           <ScrollButton />

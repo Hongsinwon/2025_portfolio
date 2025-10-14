@@ -67,6 +67,7 @@
   font-size: 10px;
   text-align: center;
   color: #777;
+
   background-color: #151515;
   border-top: #333 1px solid;
 }
@@ -75,4 +76,8 @@
   display: grid;
   grid-template-columns: 30vw 1fr;
   margin-top: 70px;
+}
+
+.mainWarp {
+  padding: 24px;
 }
