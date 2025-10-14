@@ -38,7 +38,7 @@
 
 .container > header .headerIcon {
   display: flex;
-  width: 150px;
+  width: 100px;
 }
 
 .container > header .headerIcon > div {

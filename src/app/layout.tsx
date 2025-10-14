@@ -26,21 +26,15 @@ async function Header() {
         </h1>
         <div className={style.headerIcon}>
           <div>
-            <Link href={"/"}>
+            <Link href={"https://sinwon-fe.tistory.com/"}>
               <FontAwesomeIcon icon={faBlogger} />
               <span className={style.hide}>블로그</span>
             </Link>
           </div>
           <div>
-            <Link href={"/"}>
+            <Link href={"https://github.com/Hongsinwon"}>
               <FontAwesomeIcon icon={faGithub} />
               <span className={style.hide}>깃허브</span>
-            </Link>
-          </div>
-          <div>
-            <Link href={"/"}>
-              <FontAwesomeIcon icon={faInstagram} />
-              <span className={style.hide}>인스타</span>
             </Link>
           </div>
         </div>

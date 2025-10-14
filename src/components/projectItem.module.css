@@ -45,9 +45,9 @@
 }
 
 .period {
-  padding-top: 8px;
+  padding-top: 6px;
   font-size: 13px;
-  color: #ccc;
+  color: #999;
 }
 
 .info {
@@ -63,12 +63,18 @@
 
 .link a {
   margin-right: 8px;
-  padding: 4px 20px;
+  padding: 3px 20px;
   display: inline-block;
   color: #0080ff;
   border: #0080ff 1px solid;
   border-radius: 8px;
   transition: all 0.5s;
+}
+
+.link a:hover {
+  color: #0080ff;
+  background-color: rgba(0, 128, 255, 0.25);
+  border: #0080ff 1px solid;
 }
 
 .skill div {

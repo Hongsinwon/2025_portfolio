@@ -19,7 +19,7 @@ export default function ProjectItem({
     <div className={style.projectItem} id={id.toString()}>
       <div className={style.itemImage}>
         <Image
-          src={imageUrl.toString()}
+          src={`${imageUrl}`}
           alt={`${title} 썸네일`}
           width={300}
           height={300}
