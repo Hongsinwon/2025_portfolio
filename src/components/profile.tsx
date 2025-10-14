@@ -17,7 +17,7 @@ export default function Profile() {
     <div className={style.profileSection}>
       <div className={style.aboutMe}>
         {/*  <h2 className={style.title}>ABOUT ME</h2>*/}
-        <Image src={profile} alt="증명사진" width={150} />
+        <Image src={profile} alt="증명사진" width={140} />
         <div className={style.meInfo}>
           <b className={style.title}>홍신원</b>
           <p className={style.content}>Frontend Developer</p>
@@ -44,10 +44,18 @@ export default function Profile() {
         </div>
       </div>
       <div className={style.introduction}>
-        <p className={style.title}>
-          💻 일에 있어 가장 중요하게 생각하고 있는것 💻
+        <p className={style.infoTitle}>
+          Q. 일에 있어 가장 중요하게 생각하고 있는것
         </p>
-        <p className={style.content}>asdasd</p>
+        <p className={style.content}>
+          업무 중 발생하는 다양한 문제 상황에 대해 적극적으로 의견을 제시하고
+          <br />
+          협의를 통해 최선의 해결책을 도출하는 것을 중요하게 생각합니다. <br />{" "}
+          또한, 논의된 내용을 문서화하여 문제 발생의 원인을 명확히 이해하고,{" "}
+          <br />
+          이를 기반으로 더 나은 개선 방안을 제시할 수 있도록 <br /> 노력하는
+          것이 중요하다 생각합니다.
+        </p>
       </div>
     </div>
   );
