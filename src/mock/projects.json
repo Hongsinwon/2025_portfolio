@@ -18,7 +18,7 @@
     ],
     "skill": ["dart", "flutter", "next.js", "TypeScript", "firebase", "Figma"],
     "info": "react.js 2회, next.js, flutter로 총 4회의 경험에 걸쳐  앱을 만들었고 최종적으로 flutter로 앱이 출시되었습니다.\n그 과정 속에서 계속 소통을 통해서 앱의 발전을 하기 위한 아이디어를 창출하고 고객들이 더 편히 사용할 수 있도록 UI/UX 개선에 대한 기획과 제작, 그리고 앱 전반의 모든 프로세스를 문서화하여 기록하는 업무를 주도하였습니다.",
-    "imageUrl": "/onooff.webp"
+    "imageUrl": "/thumbnail/onooff.webp"
   },
   {
     "id": 2,
@@ -39,7 +39,7 @@
     ],
     "skill": ["HTML5", "CSS3", "JavaScript", "Photoshop", " Illustrator", "XD"],
     "info": "앱 전반을 분석하고 UI/UX를 고려해 모든 화면에 대한 디자인 리뉴얼 및 퍼블리싱 리뉴얼 하는 작업을 진행하였습니다.\n기존 만들어진 앱의 불편한 점, 개선하고자 하는 UI, 유저들의 니즈를 파악하여 문서화를 진행하고 팀원들에게 공유 및 발표를 하였습니다. 모든 작업은 HTML5, CSS3 퍼블리싱으로 작업하였습니다.",
-    "imageUrl": "/mintonin.webp"
+    "imageUrl": "/thumbnail/mintonin.webp"
   },
   {
     "id": 3,
@@ -59,7 +59,7 @@
       }
     ],
     "skill": ["next.js", "TypeScript", "css3"],
-    "imageUrl": "/2025.svg"
+    "imageUrl": "/thumbnail/2025.svg"
   },
   {
     "id": 4,
@@ -79,6 +79,6 @@
       }
     ],
     "skill": ["html", "css", "React.js", "firebase"],
-    "imageUrl": "/2022.svg"
+    "imageUrl": "/thumbnail/2022.svg"
   }
 ]

@@ -1,0 +1,107 @@
+[
+  {
+    "renewalList": [
+      {
+        "title": "프로젝트 리뉴얼 아이디어 도출 및 재 기획 구성",
+        "list": [
+          "기존 작업을 통해 업무상 진행되지 못한 기획 작업",
+          "XD로 UI 디자인 시안 작업",
+          "일관성 있는 디자인과 사용자 편리성을 고려한 UI/UX 설계",
+          "공통 컴포넌트 도출"
+        ]
+      }
+    ],
+    "proposal": [
+      {
+        "url": "/proposal/proposal1.jpg",
+        "id": 1
+      },
+      {
+        "url": "/proposal/proposal2.jpg",
+        "id": 2
+      },
+      {
+        "url": "/proposal/proposal3.jpg",
+        "id": 3
+      },
+      {
+        "url": "/proposal/proposal4.jpg",
+        "id": 4
+      },
+      {
+        "url": "/proposal/proposal5.jpg",
+        "id": 5
+      },
+      {
+        "url": "/proposal/proposal6.jpg",
+        "id": 6
+      },
+      {
+        "url": "/proposal/proposal7.jpg",
+        "id": 7
+      },
+      {
+        "url": "/proposal/proposal8.jpg",
+        "id": 8
+      },
+      {
+        "url": "/proposal/proposal9.jpg",
+        "id": 9
+      },
+      {
+        "url": "/proposal/proposal10.jpg",
+        "id": 10
+      },
+      {
+        "url": "/proposal/proposal11.jpg",
+        "id": 11
+      },
+      {
+        "url": "/proposal/proposal12.jpg",
+        "id": 12
+      },
+      {
+        "url": "/proposal/proposal13.jpg",
+        "id": 13
+      },
+      {
+        "url": "/proposal/proposal14.jpg",
+        "id": 14
+      },
+      {
+        "url": "/proposal/proposal14.jpg",
+        "id": 14
+      },
+      {
+        "url": "/proposal/proposal15.jpg",
+        "id": 15
+      },
+      {
+        "url": "/proposal/proposal16.jpg",
+        "id": 16
+      },
+      {
+        "url": "/proposal/proposal17.jpg",
+        "id": 17
+      },
+      {
+        "url": "/proposal/proposal18.jpg",
+        "id": 18
+      },
+      {
+        "url": "/proposal/proposal19.jpg",
+        "id": 19
+      },
+      {
+        "url": "/proposal/proposal20.jpg",
+        "id": 20
+      },
+      {
+        "url": "/proposal/proposal21.jpg",
+        "id": 21
+      }
+    ],
+    "draft": [""],
+    "recall": "-"
+  }
+]

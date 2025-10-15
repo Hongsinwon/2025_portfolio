@@ -21,3 +21,10 @@ export interface DetailContentData {
   contribution: { title: string; list: string[] }[];
   recall: string;
 }
+
+export interface RenewalList {
+  renewalList: { title: string; list: string[] }[];
+  proposal: { url: string; id: number }[];
+  draft: { url: string; id: number }[];
+  recall: string;
+}
