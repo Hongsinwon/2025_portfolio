@@ -31,7 +31,7 @@ export default function DetailContent({
         {contribution.map((data, index) => {
           const list = data.list;
           return (
-            <div className={style.contributionList} key={index}>
+            <div className={style.listContent} key={index}>
               <p key={index}>{data.title}</p>
               <ul>
                 {list.map((listData, index) => {

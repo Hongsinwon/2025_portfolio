@@ -2,6 +2,7 @@ import Link from "next/link";
 import style from "./projectItem.module.css";
 import Image from "next/image";
 import { ProjectData } from "../types";
+import { usePathname } from "next/navigation";
 
 export default function ProjectItem({
   id,

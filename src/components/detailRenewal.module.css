@@ -1,0 +1,15 @@
+.detailRenewal {
+  margin-bottom: 60px;
+  border-top: #333 2px solid;
+  color: #fff;
+  line-height: 1.6;
+  letter-spacing: -1px;
+}
+
+.detailRenewal h4 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}

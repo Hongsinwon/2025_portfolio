@@ -1,9 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBlogger,
-  faGithub,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faBlogger, faGithub } from "@fortawesome/free-brands-svg-icons";
 import type { Metadata } from "next";
 import style from "./layout.module.css";
 import "./globals.css";
