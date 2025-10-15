@@ -18,5 +18,6 @@ export interface DetailContentData {
   content: string;
   skill: string[];
   screen: { url: string; text: string }[];
-  contribution: string[];
+  contribution: { title: string; list: string[] }[];
+  recall: string;
 }

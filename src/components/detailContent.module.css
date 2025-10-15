@@ -1,0 +1,50 @@
+.detailContent {
+  color: #eee;
+  line-height: 1.6;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+}
+
+.detailContent h4 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.detailContent .content {
+  margin: 30px 0 50px;
+}
+
+.detailContent .skill ul {
+  padding-left: 30px;
+  line-height: 2;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
+.detailContent .contributionList {
+  margin-bottom: 30px;
+}
+
+.detailContent .contributionList p {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #282828;
+}
+
+.detailContent .contributionList ul {
+  padding-left: 20px;
+  line-height: 2;
+  list-style-position: inside;
+  list-style-type: circle;
+  font-size: 14px;
+}
+
+.recall {
+  margin-bottom: 100px;
+}
