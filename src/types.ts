@@ -12,3 +12,11 @@ export interface ProjectData {
   skill: string[];
   info?: string;
 }
+
+export interface DetailContentData {
+  id: string;
+  content: string;
+  skill: string[];
+  screen: { url: string; text: string }[];
+  contribution: string[];
+}
