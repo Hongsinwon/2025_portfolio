@@ -35,13 +35,14 @@ export default function ProjectItem({
         </p>
         <p className={style.period}>{period}</p>
         <div className={style.link}>
-          {linkData.map((data) => {
-            return (
-              <Link href={data.url} key={data.text}>
-                {data.text}
-              </Link>
-            );
-          })}
+          {linkData?.length &&
+            linkData.map((data) => {
+              return (
+                <Link href={data.url} key={data.text}>
+                  {data.text}
+                </Link>
+              );
+            })}
         </div>
         <p className={style.info}>{info}</p>
         <div className={style.skill}>

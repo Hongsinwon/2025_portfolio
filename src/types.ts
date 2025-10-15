@@ -8,7 +8,7 @@ export interface ProjectData {
   content: string;
   position: string;
   personnel: string;
-  linkData: { url: string; text: string }[];
+  linkData?: { url: string; text: string }[];
   skill: string[];
   info?: string;
 }
