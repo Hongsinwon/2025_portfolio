@@ -16,7 +16,7 @@
 }
 
 .content {
-  color: #aaa;
+  color: #bbb;
 }
 
 .aboutMe {
@@ -52,6 +52,11 @@
 
 .introduction {
   padding-top: 40px;
+  letter-spacing: -1px;
+}
+
+.introduction > div {
+  padding-bottom: 28px;
 }
 
 .introduction .infoTitle {
