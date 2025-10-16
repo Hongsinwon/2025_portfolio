@@ -101,7 +101,148 @@
         "id": 21
       }
     ],
-    "draft": [""],
-    "recall": "-"
+    "draft": [
+      {
+        "url": "/draft/draft1.png",
+        "id": 1
+      },
+      {
+        "url": "/draft/draft2.png",
+        "id": 2
+      },
+      {
+        "url": "/draft/draft3.png",
+        "id": 3
+      },
+      {
+        "url": "/draft/draft4_1.png",
+        "id": 4
+      },
+      {
+        "url": "/draft/draft4_2.png",
+        "id": 4
+      },
+      {
+        "url": "/draft/draft5.png",
+        "id": 5
+      },
+      {
+        "url": "/draft/draft6.png",
+        "id": 6
+      },
+      {
+        "url": "/draft/draft7_1.png",
+        "id": 7
+      },
+      {
+        "url": "/draft/draft7_2.png",
+        "id": 7
+      },
+      {
+        "url": "/draft/draft8.png",
+        "id": 8
+      },
+      {
+        "url": "/draft/draft9.png",
+        "id": 9
+      },
+      {
+        "url": "/draft/draft10.png",
+        "id": 10
+      },
+      {
+        "url": "/draft/draft11.png",
+        "id": 11
+      },
+      {
+        "url": "/draft/draft12.png",
+        "id": 12
+      },
+      {
+        "url": "/draft/draft13.png",
+        "id": 13
+      },
+      {
+        "url": "/draft/draft14.png",
+        "id": 14
+      },
+
+      {
+        "url": "/draft/draft15.png",
+        "id": 15
+      },
+      {
+        "url": "/draft/draft16.png",
+        "id": 16
+      },
+      {
+        "url": "/draft/draft17.png",
+        "id": 17
+      },
+      {
+        "url": "/draft/draft18.png",
+        "id": 18
+      },
+      {
+        "url": "/draft/draft19_1.png",
+        "id": 19
+      },
+      {
+        "url": "/draft/draft19_2.png",
+        "id": 19
+      },
+      {
+        "url": "/draft/draft20_1.png",
+        "id": 20
+      },
+      {
+        "url": "/draft/draft20_2.png",
+        "id": 20
+      },
+      {
+        "url": "/draft/draft20_3.png",
+        "id": 20
+      },
+      {
+        "url": "/draft/draft21.png",
+        "id": 21
+      },
+      {
+        "url": "/draft/draft22.png",
+        "id": 22
+      },
+      {
+        "url": "/draft/draft23.png",
+        "id": 23
+      },
+      {
+        "url": "/draft/draft24.png",
+        "id": 24
+      },
+      {
+        "url": "/draft/draft25.png",
+        "id": 25
+      },
+      {
+        "url": "/draft/draft26.png",
+        "id": 26
+      },
+      {
+        "url": "/draft/draft27.png",
+        "id": 27
+      },
+      {
+        "url": "/draft/draft28.png",
+        "id": 28
+      },
+      {
+        "url": "/draft/draft29.png",
+        "id": 29
+      },
+      {
+        "url": "/draft/draft30.png",
+        "id": 30
+      }
+    ]
   }
 ]

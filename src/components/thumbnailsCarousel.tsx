@@ -5,14 +5,42 @@ import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import style from "./thumbnailsCarousel.module.css";
 import Image from "next/image";
-import Thumb from "./thumb";
 
-type PropType = {
+type SlidesPropType = {
   slides: { url: string; id: number }[];
   options?: EmblaOptionsType;
 };
 
-export default function ThumbnailsCarousel({ slides, options }: PropType) {
+type ThumbPropType = {
+  selected: boolean;
+  index: number;
+  url: string;
+  onClick: () => void;
+};
+
+function Thumb({ selected, url, index, onClick }: ThumbPropType) {
+  return (
+    <div
+      className={"embla-thumbs__slide".concat(
+        selected ? " embla-thumbs__slide--selected" : ""
+      )}>
+      <button onClick={onClick} type="button">
+        <Image
+          src={url}
+          alt={`민턴인 리뉴얼 기획서 썸네일 ${index}`}
+          priority
+          width={250}
+          height={500}
+        />
+      </button>
+    </div>
+  );
+}
+
+export default function ThumbnailsCarousel({
+  slides,
+  options,
+}: SlidesPropType) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [emblaMainRef, emblaMainApi] = useEmblaCarousel(options);
   const [emblaThumbsRef, emblaThumbsApi] = useEmblaCarousel({

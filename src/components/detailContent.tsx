@@ -7,7 +7,6 @@ export default function DetailContent({
   skill,
   screen,
   contribution,
-  recall,
 }: DetailContentData) {
   return (
     <div className={style.detailContent} id={id}>
@@ -41,11 +40,6 @@ export default function DetailContent({
             </div>
           );
         })}
-      </div>
-
-      <div className={style.recall}>
-        <h4>☕️ 회고</h4>
-        <p>{recall}</p>
       </div>
     </div>
   );

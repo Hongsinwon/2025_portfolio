@@ -3,6 +3,7 @@ import listStyle from "./detailContent.module.css";
 import { RenewalList } from "@/types";
 import { EmblaOptionsType } from "embla-carousel";
 import ThumbnailsCarousel from "./thumbnailsCarousel";
+import SliderCarousel from "./slidesCarousel/slidesCarousel";
 
 const OPTIONS: EmblaOptionsType = {};
 
@@ -10,7 +11,6 @@ export default function DetailRenewal({
   renewalList,
   proposal,
   draft,
-  recall,
 }: RenewalList) {
   return (
     <div className={style.detailRenewal}>
@@ -36,11 +36,7 @@ export default function DetailRenewal({
       </div>
       <div>
         <h4>🎨 리뉴얼 시안</h4>
-        <p>1</p>
-      </div>
-      <div>
-        <h4>☕️ 회고</h4>
-        <p>{recall}</p>
+        <SliderCarousel slides={draft} options={OPTIONS} />
       </div>
     </div>
   );
