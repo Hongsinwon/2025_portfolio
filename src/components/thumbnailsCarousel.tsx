@@ -1,9 +1,11 @@
 "use client";
+
+import { useCallback, useEffect, useState } from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
-import { useCallback, useEffect, useState } from "react";
+import style from "./thumbnailsCarousel.module.css";
 import Image from "next/image";
-import Thumb from "./Thumb";
+import Thumb from "./thumb";
 
 type PropType = {
   slides: { url: string; id: number }[];
@@ -17,16 +19,6 @@ export default function ThumbnailsCarousel({ slides, options }: PropType) {
     containScroll: "keepSnaps",
     dragFree: true,
   });
-  {
-    /*[
-      AutoScroll({
-        speed: 1, // 속도 1
-        startDelay: 0, // 지연
-        direction: "forward", // 사진 방향
-        stopOnInteraction: false, // 사용자가 사진을 클릭하면 흘러가는 중지되는 인터렉션 해제
-      }),
-    ]}*/
-  }
 
   const onThumbClick = useCallback(
     (index: number) => {
@@ -50,16 +42,16 @@ export default function ThumbnailsCarousel({ slides, options }: PropType) {
   }, [emblaMainApi, onSelect]);
 
   return (
-    <div className="embla">
-      <div className="embla__viewport" ref={emblaMainRef}>
-        <div className="embla__container">
+    <div className={style.embla}>
+      <div className={style.viewport} ref={emblaMainRef}>
+        <div className={style.emblaContainer}>
           {slides.map((data, index) => (
-            <div className="embla__slide" key={index}>
+            <div className={style.emblaSlide} key={index}>
               <Image
                 src={data.url}
-                alt={`Slide ${index}`}
-                width={900}
-                height={900}
+                alt={`민턴인 리뉴얼 기획서 ${index}`}
+                width={1000}
+                height={1000}
                 priority
               />
             </div>
@@ -68,11 +60,12 @@ export default function ThumbnailsCarousel({ slides, options }: PropType) {
       </div>
 
       <div className="embla-thumbs">
-        <div className="embla-thumbs__viewport" ref={emblaThumbsRef}>
-          <div className="embla-thumbs__container">
+        <div className={style.emblaThumbsViewport} ref={emblaThumbsRef}>
+          <div className={style.emblaThumbsContainer}>
             {slides.map((data, index) => (
               <Thumb
                 key={index}
+                url={data.url}
                 onClick={() => onThumbClick(index)}
                 selected={index === selectedIndex}
                 index={index}
