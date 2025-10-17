@@ -7,10 +7,33 @@ import "./reset.css";
 import Link from "next/link";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Profile from "../components/profile";
+import Head from "next/head";
+
+const baseUrl =
+  process.env.NODE_ENV === "production"
+    ? `https://${process.env.VERCEL_URL}`
+    : "http://localhost:3000";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: "HongSinWon_Portfolio2025",
   description: "프론트엔드 개발자 Portfolio2025",
+  openGraph: {
+    title: "HongSinWon_Portfolio2025",
+    description: "프론트엔드 개발자 Portfolio2025",
+    images: ["/thumbnail.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HongSinWon_Portfolio2025",
+    description: "프론트엔드 개발자 Portfolio2025",
+    images: ["/thumbnail.png"],
+  },
+  icons: {
+    icon: "/favicon.ico", // 기본 파비콘
+    shortcut: "/favicon.ico", // 브라우저 탭
+    apple: "/apple-icon.png", // iOS용
+  },
 };
 
 async function Header() {
