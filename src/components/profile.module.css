@@ -106,8 +106,8 @@
   }
 
   .skill .skillIcon {
-    width: 50vw;
-    gap: 10px;
+    width: 60vw;
+    gap: 16px;
   }
 
   .introduction div:nth-child(1) {
