@@ -46,10 +46,13 @@
 }
 
 @media (max-width: 900px) {
+  .content {
+    font-size: 15px;
+  }
+
   .content,
   .detailContent h4,
   .listContent p {
     text-align: center;
-    letter-spacing: -1.5px;
   }
 }
