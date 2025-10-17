@@ -51,9 +51,8 @@
   }
 
   .detailContent .skill ul {
-    padding-left: 0px;
+    padding-left: 15px;
     list-style-position: outside;
-    text-align: center;
   }
 
   .content,
