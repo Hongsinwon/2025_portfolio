@@ -50,6 +50,10 @@
     font-size: 15px;
   }
 
+  .detailContent .skill ul {
+    list-style-position: outside;
+  }
+
   .content,
   .detailContent h4,
   .listContent p {

@@ -50,6 +50,10 @@
     justify-content: center;
   }
 
+  .skill div {
+    margin-top: 8px;
+  }
+
   .detailTopInfo .itemImage {
     margin-top: 40px;
     border: #999 0px solid;
