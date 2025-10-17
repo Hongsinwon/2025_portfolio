@@ -82,3 +82,15 @@
 .mainWarp {
   padding: 24px;
 }
+
+@media (max-width: 1500px) {
+  .container > header > .headerBody {
+    width: 90vw;
+  }
+
+  .container > main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+}
