@@ -50,10 +50,6 @@
     "position": "기획 및 퍼블리싱",
     "linkData": [
       {
-        "url": "https://2025-portfolio-sooty.vercel.app/",
-        "text": "홈페이지"
-      },
-      {
         "url": "https://github.com/Hongsinwon/2025_portfolio",
         "text": "Github"
       }
