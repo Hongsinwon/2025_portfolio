@@ -35,3 +35,22 @@
   justify-content: center;
   border: #999 1px solid;
 }
+
+@media (max-width: 900px) {
+  .detailTopInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skill {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .detailTopInfo .itemImage {
+    margin-top: 40px;
+    border: #999 0px solid;
+  }
+}

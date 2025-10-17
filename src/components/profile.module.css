@@ -113,4 +113,8 @@
   .introduction div:nth-child(1) {
     display: block;
   }
+
+  .none {
+    display: none;
+  }
 }

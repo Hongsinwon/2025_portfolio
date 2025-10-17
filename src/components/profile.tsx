@@ -19,7 +19,8 @@ export default function Profile() {
   const pathname = usePathname();
 
   return (
-    <div className={style.profileSection}>
+    <div
+      className={`${style.profileSection} ${pathname === "/" ? "" : style.none}`}>
       <div className={style.aboutMe}>
         <Image src={profile} alt="증명사진" width={140} />
         <div className={style.meInfo}>
