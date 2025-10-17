@@ -17,14 +17,12 @@ export interface DetailContentData {
   id: string;
   content: string;
   skill: string[];
-  screen: { url: string; text: string }[];
+  screen: { url: string; id: number }[];
   contribution: { title: string; list: string[] }[];
-  recall: string;
 }
 
 export interface RenewalList {
   renewalList: { title: string; list: string[] }[];
   proposal: { url: string; id: number }[];
   draft: { url: string; id: number }[];
-  recall: string;
 }

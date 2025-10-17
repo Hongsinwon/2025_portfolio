@@ -1,5 +1,9 @@
 import { DetailContentData } from "@/types";
+import { EmblaOptionsType } from "embla-carousel";
 import style from "./detailContent.module.css";
+import SliderCarousel from "./slidesCarousel/slidesCarousel";
+
+const OPTIONS: EmblaOptionsType = {};
 
 export default function DetailContent({
   id,
@@ -23,7 +27,7 @@ export default function DetailContent({
       </div>
       <div className={style.screen}>
         <h4>💻 작업 화면</h4>
-        <div></div>
+        <SliderCarousel slides={screen} options={OPTIONS} />
       </div>
       <div className={style.contribution}>
         <h4>✨ 작업 기여도</h4>
