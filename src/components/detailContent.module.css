@@ -48,7 +48,6 @@
 @media (max-width: 900px) {
   .content,
   .detailContent h4,
-  .detailContent .skill ul,
   .listContent p {
     text-align: center;
     letter-spacing: -1.5px;
