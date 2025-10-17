@@ -7,7 +7,6 @@ import "./reset.css";
 import Link from "next/link";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Profile from "../components/profile";
-import Head from "next/head";
 
 const baseUrl =
   process.env.NODE_ENV === "production"
