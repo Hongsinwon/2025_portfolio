@@ -71,6 +71,9 @@
   transition: all 0.5s;
 }
 
+.link:last-child a {
+  margin-right: 0px;
+}
 .link a:hover {
   color: #0080ff;
   background-color: rgba(0, 128, 255, 0.25);
@@ -85,4 +88,42 @@
   color: #bbb;
   background-color: #252525;
   border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+  .projectItem {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemImage {
+    margin-bottom: 30px;
+  }
+
+  .title,
+  .content,
+  .position,
+  .period,
+  .info {
+    text-align: center;
+  }
+
+  .link {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .link a {
+    font-size: 16px;
+    padding: 8px 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .skill {
+    justify-content: center;
+  }
+  .skill div {
+    padding: 2px 10px 3px;
+  }
 }
