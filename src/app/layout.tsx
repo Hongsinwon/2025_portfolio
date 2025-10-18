@@ -8,13 +8,7 @@ import Link from "next/link";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Profile from "../components/profile";
 
-const baseUrl =
-  process.env.NODE_ENV === "production"
-    ? `https://2025-portfolio-sooty.vercel.app/`
-    : "http://localhost:3000";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
   title: "HongSinWon_Portfolio2025",
   description: "프론트엔드 개발자 Portfolio2025",
   openGraph: {
