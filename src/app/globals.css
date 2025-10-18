@@ -69,18 +69,11 @@
 @media (max-width: 750px) {
   .embla__button--prev {
     position: absolute;
-    left: 0px;
-    width: 100%;
+    left: -80px;
   }
 
   .embla__button--next {
     position: absolute;
-    right: 0px;
-    width: 100%;
-  }
-
-  .embla__button__svg {
-    width: 10%;
-    height: 10%;
+    right: -80px;
   }
 }
