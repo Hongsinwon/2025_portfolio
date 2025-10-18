@@ -10,7 +10,7 @@ import Profile from "../components/profile";
 
 const baseUrl =
   process.env.NODE_ENV === "production"
-    ? `https://${process.env.VERCEL_URL}`
+    ? `https://2025-portfolio-sooty.vercel.app/`
     : "http://localhost:3000";
 
 export const metadata: Metadata = {
