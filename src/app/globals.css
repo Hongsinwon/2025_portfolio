@@ -65,3 +65,17 @@
   width: 20%;
   height: 20%;
 }
+
+@media (max-width: 750px) {
+  .embla__button--prev {
+    position: absolute !important;
+    left: -80px;
+    width: 100%;
+  }
+
+  .embla__button--next {
+    position: absolute !important;
+    right: -80px;
+    width: 100%;
+  }
+}
