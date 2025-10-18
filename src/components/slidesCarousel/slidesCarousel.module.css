@@ -15,7 +15,7 @@
   --slide-size-lg: calc(100% / 3);
 }
 .emblaViewport {
-  max-width: 90rem;
+  max-width: 95rem;
   overflow: hidden;
   cursor: pointer;
 }
