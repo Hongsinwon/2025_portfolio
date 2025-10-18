@@ -68,13 +68,13 @@
 
 @media (max-width: 750px) {
   .embla__button--prev {
-    position: absolute !important;
+    position: relative !important;
     left: 0px;
     width: 100%;
   }
 
   .embla__button--next {
-    position: absolute !important;
+    position: relative !important;
     right: 0px;
     width: 100%;
   }
