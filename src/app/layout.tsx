@@ -22,12 +22,6 @@ export const metadata: Metadata = {
     description: "프론트엔드 개발자 Portfolio2025",
     images: ["/thumbnail.png"],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "HongSinWon_Portfolio2025",
-    description: "프론트엔드 개발자 Portfolio2025",
-    images: ["/thumbnail.png"],
-  },
   icons: {
     icon: "/favicon.ico", // 기본 파비콘
     shortcut: "/favicon.ico", // 브라우저 탭
