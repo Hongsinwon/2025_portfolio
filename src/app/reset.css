@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  overflow-x: hidden;
-  overflow-y: auto;
-  box-sizing: border-box;
-}
-
 html,
 body,
 div,
