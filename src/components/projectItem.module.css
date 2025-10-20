@@ -74,6 +74,7 @@
 .link:last-child a {
   margin-right: 0px;
 }
+
 .link a:hover {
   color: #0080ff;
   background-color: rgba(0, 128, 255, 0.25);
@@ -90,7 +91,7 @@
   border-radius: 20px;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .projectItem {
     display: flex;
     flex-direction: column;
@@ -130,4 +131,4 @@
   .skill div {
     margin-top: 8px;
   }
-}
+} */
