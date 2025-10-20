@@ -1,4 +1,4 @@
-.projectItem {
+/* .projectItem {
   display: grid;
   grid-template-columns: 300px 1fr;
   column-gap: 36px;
@@ -91,7 +91,7 @@
   border-radius: 20px;
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .projectItem {
     display: flex;
     flex-direction: column;
