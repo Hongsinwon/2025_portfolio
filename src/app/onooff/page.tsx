@@ -8,6 +8,7 @@ export default function Page() {
   return (
     <div className={style.container}>
       <DetailTopInfo {...projects[0]} />
+      <DetailContent {...onooffData[0]} />
     </div>
   );
 }
@@ -15,5 +16,5 @@ export default function Page() {
 {
   /*
      
-      <DetailContent {...onooffData[0]} /> */
+       */
 }
