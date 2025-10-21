@@ -3,5 +3,20 @@
   display: block;
   color: #fff;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bolder;
+}
+
+.container {
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.errorContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  line-height: 1.6;
 }
