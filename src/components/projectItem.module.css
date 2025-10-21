@@ -59,6 +59,7 @@
 .skill {
   display: flex;
   margin: 16px 0;
+  flex-wrap: wrap;
 }
 
 .link a {
