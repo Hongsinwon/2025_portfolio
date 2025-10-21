@@ -64,7 +64,7 @@
 
 .link a {
   margin-right: 8px;
-  margin-bottom: 10px;
+
   padding: 3px 20px;
   display: inline-block;
   color: #0080ff;
@@ -85,6 +85,7 @@
 
 .skill div {
   margin-right: 8px;
+  margin-bottom: 10px;
   padding: 2px 16px 3px;
   display: inline-block;
   font-size: 12px;
