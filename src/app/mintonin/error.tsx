@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { startTransition, useEffect } from "react";
+import style from "..page.module.css";
 
 export default function Error({
   error,
@@ -17,7 +18,7 @@ export default function Error({
   }, [error]);
 
   return (
-    <div>
+    <div className={style.errorContent}>
       <h3>오류가 발생했습니다</h3>
       <button
         onClick={() => {

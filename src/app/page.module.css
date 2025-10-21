@@ -19,4 +19,12 @@
   justify-content: center;
   color: #fff;
   line-height: 1.6;
+  font-size: 18px;
+}
+
+.errorContent button {
+  margin-top: 20px;
+  padding: 5px 20px;
+  border: #fff 1px solid;
+  border-radius: 8px;
 }
