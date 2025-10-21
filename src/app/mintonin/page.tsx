@@ -1,5 +1,7 @@
+"use client";
+
 import DetailTopInfo from "@/components/detailTopInfo";
-import style from "..page.module.css";
+import style from "@/app/page.module.css";
 import projects from "@/mock/projects.json";
 import mintoninData from "@/mock/mintoninData.json";
 import mintoninRenewalData from "@/mock/mintoninRenewalData.json";
