@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { startTransition, useEffect } from "react";
-import style from "..page.module.css";
+import style from "@/app/page.module.css";
 
 export default function Error({
   error,
